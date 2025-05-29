@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getTasks, createTask, updateTask, deleteTask } from "./api/Task";
 import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
