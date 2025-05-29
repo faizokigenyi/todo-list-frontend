@@ -2,7 +2,7 @@ const TaskList = ({ tasks, onDelete, onUpdate }) => {
     return (
       <div className="space-y-4">
         {tasks.map((task) => (
-          <div key={task.id} className="bg-gray-50 border border-gray-300 p-4 rounded shadow-sm">
+          <div key={task.id} className="bg-gray-100 border border-gray-300 p-4 rounded shadow-sm">
             <div className="flex justify-between items-center mb-2">
               <h2 className="text-lg font-semibold text-gray-800">{task.title}</h2>
               <span className={`text-sm px-2 py-1 rounded 
