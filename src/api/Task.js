@@ -1,4 +1,5 @@
-const API_URL = 'https://nestjs-todo-list-production.up.railway.app/tasks';
+const API_URL = 'https://todo-list-new-production.up.railway.app/tasks';
+
 
 export const getTasks = async () => {
   const res = await fetch(API_URL);
